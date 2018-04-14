@@ -1,0 +1,645 @@
+/* ======================= ALL PAGES ================= */
+
+/* JS LOADER */
+
+.no-js #loader {
+    display: none;
+}
+
+.js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../img/preloader_2.gif) center no-repeat #fff;
+}
+
+/* END JS LOADER */
+
+p,
+h1,
+h2,
+h3,
+a {
+    font-family: 'Alegreya SC', serif;
+}
+
+/* NAVBAR */
+
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    transition: 0.2s all linear;
+    font-family: 'Alegreya SC', serif;
+    padding: 15px 0px 15px 0px;
+}
+
+@media only screen and (max-width: 720px) {
+    .navbar-default {
+        background-color: #000;
+    }
+}
+
+.navbar-default.change-color {
+    background-color: #000000;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 1);
+}
+
+.navbar-default .navbar-nav > .active {
+    background: rgb(0, 102, 255);
+    border-radius: 25%;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background: rgb(0, 102, 255);
+}
+
+.navbar a {
+    color: #fff !important;
+    font-size: 18px;
+}
+
+.navbar-brand h4 {
+    font-size: 25px;
+    color: #0066ff;
+    margin-top: -10px;
+    line-height: 60%;
+}
+
+.navbar li {
+    margin-right: 25px;
+}
+
+.navbar li:hover {
+    background-color: rgba(0, 102, 255, 0.3);
+}
+
+/* END NAVBAR */
+
+.divider {
+    height: 1px;
+    width: 100%;
+    display: block;
+    margin: 19px 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.spacer {
+    height: 100px;
+}
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer h3 {
+    color: #0066ff;
+}
+
+.footer h4 {
+    color: #0066ff;
+    font-family: 'Alegreya SC', serif;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: all .2s ease-in-out
+}
+
+.footer a:hover {
+    color: #0066ff;
+    transform: scale(1.1);
+}
+
+#btn {
+    color: #fff;
+    background-color: #000000;
+    border: solid 2px #fff;
+    margin-top: 60px;
+}
+
+#btn:hover {
+    color: #0066ff;
+    border-color: #0066ff;
+}
+
+.link {
+    font-size: 20px;
+    line-height: 34px;
+}
+
+footer {
+    font-family: 'Alegreya SC', serif;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+}
+
+/* ==================== END ALL PAGES ======================= */
+
+/* ========================= HOME INDEX PAGE ========== */
+
+/* CAROUSEL */
+
+.carousel-caption {
+    margin-bottom: 120px;
+}
+
+ol {
+    margin: 50px;
+}
+
+.carousel-caption h2,
+h3 {
+    color: #fff;
+}
+
+.buttonCarousel {
+    color: #fff;
+    background-color: transparent;
+    border: solid 1px #fff;
+    padding: 20px 50px 0px 50px;
+    margin-top: 100px;
+}
+
+.buttonCarousel:hover {
+    color: #0066ff;
+    border: solid 1px #fff;
+}
+
+.slideButton {
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+@media only screen and (max-width: 979px) {
+    #myCarousel.carousel img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    #myCarousel.carousel img {
+        max-width: 300%;
+        width: 150%;
+        min-height: 400px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .carousel-caption {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-caption h3 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .buttonCarousel {
+        padding: 25px 25px 1px 25px;
+    }
+}
+
+/* END CAROUSEL */
+
+/* JUMBOTRON */
+
+.jumbotron {
+    text-align: center;
+    background-color: #fff;
+    padding: 150px 20px 150px 20px;
+}
+
+.jumbotron h1 {
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+    color: #0066ff;
+    display: inline;
+}
+
+.jumbotron p {
+    color: #000000;
+    font-size: 22px;
+}
+
+#i1 {
+    animation-duration: 5s;
+    animation-name: wobble;
+}
+
+@keyframes wobble {
+    0% {
+        left: 100px;
+    }
+
+    40% {
+        left: 150px;
+    }
+
+    60% {
+        left: 75px;
+    }
+
+    100% {
+        left: 100px;
+    }
+}
+
+/*END JUMBOTRON */
+
+/* IMG DIGITAL */
+
+#img {
+    background-image: url("../img/digital.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 589px;
+    margin-bottom: 150px;
+}
+
+/* END IMG DIGITAL */
+
+/* COLUMN */
+
+.column-index {
+    text-align: center;
+    color: #fff;
+    padding: 25px 0px 25px 0px;
+    font-size: 20px;
+    margin: 10px 20px 100px 20px;
+    line-height: 25px;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.column-index i {
+    color: #fff;
+    border: solid 2px #fff;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.column-index a {
+    text-decoration: none;
+}
+
+.column-index a h2 {
+    font-family: 'Teko', sans-serif;
+    color: #fff;
+}
+
+.column-index a h3 {
+    display: inline-block;
+    border: solid 1px #fff;
+    padding: 5px;
+}
+
+.column-index a h2:hover {
+    color: #0066ff;
+}
+
+.column-index a h3:hover {
+    color: #0066ff;
+}
+
+#parallax-index {
+    background-image: url("../img/column1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+    #parallax-index {
+        background-image: none;
+        background-color: #66a3ff;
+    }
+}
+
+/* END COLUMN */
+
+/* CONTACT */
+
+.section-header h2 {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    background: -webkit-linear-gradient(#e6f7ff, #0066ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-content {
+    font-family: 'Teko', sans-serif;
+    width: 100%;
+    color: #000000;
+    margin-bottom: 100px;
+}
+
+.section-content .col-md-6 {
+    width: 50%;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+label {
+    font-family: 'Alegreya SC', serif;
+    color: #000000;
+    font-size: 18px;
+    display: block;
+    text-align: left;
+}
+
+.form-control {
+    color: #080808;
+    background-color: transparent;
+}
+
+.btn-send {
+    background-color: #0066ff;
+    padding: 15px 25px 15px 25px;
+    font-size: 18px;
+}
+
+/* END CONTACT */
+
+/* ===================== END HOME INDEX PAGE ========= */
+
+/* ===================== ABOUT PAGE ============= */
+
+#parallax-page1 {
+    background-image: url("../img/column-page1.jpg");
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    width: 100%;
+    height: 600px;
+}
+
+#carbtn-page {
+    color: #fff;
+    background-color: transparent;
+    border: solid 1px #fff;
+    margin: 40px 0px 5px 0px;
+    padding: 0px 50px 0px 50px;
+    letter-spacing: 2px;
+}
+
+.column-page {
+    text-align: center;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .column-page {
+        margin-top: -55px;
+    }
+}
+
+.column-page h2 {
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    .column-page h2 {
+        font-size: 20px;
+    }
+}
+
+.column-page h3 {
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    .column-page h3 {
+        font-size: 15px;
+    }
+}
+
+.about img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about p {
+    color: #006699;
+    font-size: 20px;
+    padding: 5% 15% 5% 15%;
+    text-align: center;
+    background-color: #cceeff;
+    border: solid 15px #e6f7ff;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.aboutUs {
+    margin-bottom: 70px;
+}
+
+@media only screen and (max-width: 600px) {
+    .about p {
+        padding: 5%;
+    }
+}
+
+/* ===================== END ABOUT PAGE ============= */
+
+/* ===================== WEB TECHNOLOGIES ============ */
+
+#parallax-page2 {
+    background-image: url("../img/column-page2.jpg");
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    width: 100%;
+    height: 600px;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 25%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+    text-align: center;
+}
+
+.text p {
+    font-size: 22px;
+    padding: 15%;
+    color: #fff;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+@media only screen and (min-width: 520px) and (max-width: 625px) {
+    .text p {
+        font-size: 22px;
+        text-shadow: 0px 0px 0 #000;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .text p {
+        padding: 1%;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 950px) {
+    .text p {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .text p {
+        font-size: 13px;
+        margin-top: -20px;
+        text-shadow: 0px 0px 0 #000;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .text p {
+        font-size: 9px;
+        text-shadow: 0px 0px 0 #000;
+    }
+}
+
+.techFluid {
+    background-color: #0066ff;
+}
+
+.tech {
+    padding: 100px 5px 100px 5px;
+    text-align: center;
+    background-color: #0066ff;
+}
+
+.tech h3 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.tech-text {
+    color: #fff;
+    font-size: 22px;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.tech-iconOut {
+    color: #fff;
+    font-size: 20px;
+}
+
+.tech-iconOut i {
+    border: solid #fff 5px;
+    border-radius: 50%;
+    padding: 50px;
+    margin-top: 15%;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.tech-iconIn {
+    color: #fff;
+    font-size: 20px;
+}
+
+.tech-iconIn i {
+    border: solid #fff 5px;
+    border-radius: 50%;
+    padding: 50px;
+    margin-top: 15%;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.divider-white {
+    background-color: #fff;
+}
+
+/* ===================== END WEB TECHNOLOGIES ========= */
+
+/* ===================== CONTACT PAGE ===============*/
+
+#parallax-page3 {
+    background-image: url("../img/column-page3.jpg");
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    width: 100%;
+    height: 600px;
+}
+
+@media(max-width: 500px) {
+    #parallax-page3 h2,
+    h3 {
+        font-size: 25px;
+    }
+}
+
+/* ===================== END CONTACT PAGE =============*/
