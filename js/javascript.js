@@ -1,11 +1,3 @@
-/* PRELOADER */
-
-$(document).ready(function () {
-    $('.se-pre-con').fadeOut('slow');
-});
-
-/* END PRELOADER */
-
 /* NAVBAR CHANGE ON SCROLL */
 
 $(document).ready(function ($) {
